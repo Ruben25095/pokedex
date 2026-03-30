@@ -90,7 +90,7 @@ const Anterior = () => {
               :src="`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonid(pokemon.url)}.png`" 
               :alt="pokemon.name"
             />
-              <p class="mt-2 font-bold capitalize text-white text-sm drop-shadow-md">
+              <p class="mt-0 font-bold capitalize text-white text-sm drop-shadow-md">
             {{ pokemon.name }}
           </p>
           </div>
